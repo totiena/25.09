@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border: 1px solid blueviolet;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid blueviolet;
+}
+
+tr:first-child {
+    background-color: lightblue;
+}
+
+td:first-child {
+    background-color: lightblue;
+}
+
+selector {
+    background-color: darkorange;
+}
+
+
+td:nth-child(3) {
+    background-color: violet;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(120, 120, 159);
+}
